@@ -11,8 +11,8 @@ const Header = () => (
       <div className={cx("brand")}>
         <Link to="/">reactblog</Link>
       </div>
+      <div className={cx("right")}>오른쪽</div>
     </div>
-    <div className={cx("right")}>오른쪽</div>
   </header>
 );
 
